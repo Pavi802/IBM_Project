@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>RegistrationForm_v3 by Colorlib</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<!-- MATERIAL DESIGN ICONIC FONT -->
+		<link rel="stylesheet" href="../static/fonts/material-design-iconic-font/css/material-design-iconic-font.min.css">
+		
+		<!-- STYLE CSS -->
+		<link rel="stylesheet" href="../static/css/style.css">
+	</head>
+
+	<body>
+
+		<div class="wrapper" style="background-image: url('images/bg-registration-form-3.jpg');">
+			<div class="inner">
+				<form action ="http://127.0.0.1:5000/predict" method="post">
+					<h3>ELIGIBILITY PREDICTOR</h3>
+					<div class="form-group">
+						<div class="form-wrapper">
+							<label for="">GRE CORE:</label>
+							<div class="form-holder">
+								
+								<input type="text" name="gre" class="form-control">
+							</div>
+						</div>
+						<div class="form-wrapper">
+							<label for="">TOEFL CORE:</label>
+							<div class="form-holder">
+								<input type="text" name="tofl" class="form-control">
+							</div>
+						</div>
+					</div>
+					<div class="form-group">
+						<div class="form-wrapper">
+							<label for="">ENTER SOP:</label>
+							<div class="form-holder">
+								<i style="font-style: normal; font-size: 15px;"></i>
+								<input type="text" name="sop" class="form-control">
+							</div>
+						</div>
+						<div class="form-wrapper">
+							<label for="">ENTER LOR:</label>
+							<div class="form-holder">
+								<i style="font-style: normal; font-size: 15px;"></i>
+								<input type="text" name="lor" class="form-control">
+							</div>
+						</div>
+					</div>
+					<div class="form-group">
+						<div class="form-wrapper">
+							<label for="">ENTER CGPA:</label>
+							<div class="form-holder">
+								<i style="font-style: normal; font-size: 15px;"></i>
+								<input type="text" name="cgpa" class="form-control">
+							</div>
+						</div>
+						<div class="form-wrapper">
+							<label for="">SELECT UNIVERSITY RATING:</label>
+							<div class="form-holder select">
+								<select name="rating" id="ratin" class="form-control">
+									<option value="0">--SELECT--</option>
+									<option value="1">1</option>
+									<option value="2">2</option>
+									<option value="3">3</option>
+									<option value="4">4</option>
+									<option value="5">5</option>
+								</select>
+								<i class="zmdi zmdi-pin"></i>
+							</div>
+						</div>
+					</div>
+					<div class="form-wrapper">
+						<label for="">RESEARCH:</label>
+						<div class="form-holder select">
+							<select name="research" id="re" class="form-control">
+								<option value="Yes">RESEARCH</option>
+								<option value="No">NO RESEARCH</option>
+							</select>
+							<i class="zmdi zmdi-face"></i>
+						</div>
+					</div>
+					<div class="form-wrapper">
+						<button style="width:100%;text-align: center;" type="submit" value="submit">SUBMIT</button>
+					</div>
+						
+						
+						
+					<div class="form-end">
+							
+						
+						
+					</div>
+				</form>
+			</div>
+		</div>
+		
+	</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+</html>
